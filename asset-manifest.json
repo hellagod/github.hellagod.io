@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "./static/css/main.57ca67c3.css",
+    "main.js": "./static/js/main.9a79116e.js",
+    "static/media/dota_back.png": "./static/media/dota_back.f8eafe4e20e70c74b1b4.png",
+    "static/media/fa-solid_fist-raised.svg": "./static/media/fa-solid_fist-raised.4cf2730d76cf39518a6454631f081427.svg",
+    "index.html": "./index.html",
+    "main.57ca67c3.css.map": "./static/css/main.57ca67c3.css.map",
+    "main.9a79116e.js.map": "./static/js/main.9a79116e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.57ca67c3.css",
+    "static/js/main.9a79116e.js"
+  ]
+}

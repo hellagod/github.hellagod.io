@@ -1,0 +1,63 @@
+.player {
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.25) inset;
+    border-radius: 6px;
+    padding: 6px 10px;
+    max-height: 44px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: grab;
+    width: 336px;
+
+}
+
+
+
+.player-img {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    border: 1px solid #6F7071;
+}
+
+.player-info {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    width: 100%;
+}
+
+.player-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 5px;
+}
+
+.player-name {
+    color: white;
+    font-size: 16px;
+    font-family: 'Crimson Text', serif;
+    font-weight: 600;
+}
+
+.pos-circle {
+    width: 12px;
+    height: 12px;
+    background: white;
+    border: 2px solid rgba(0, 0, 0, 0.30);
+}
+
+.player-pos {
+    color: #7A7A7A;
+    font-size: 12px;
+    font-family: 'Crimson Text', serif;
+    font-weight: 600;
+}
+
+.player-points {
+    color: white;
+    font-size: 12px;
+    font-family: 'Crimson Text', serif;
+    font-weight: 600;
+}

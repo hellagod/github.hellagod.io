@@ -1,0 +1,11 @@
+.main_container{
+    height: 100vh;
+    width: 100vw;
+    background-image: url("./statics/dota_back.png");
+    background-size: cover;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    overflow: hidden;
+    z-index: -999;
+}

@@ -1,0 +1,20 @@
+.teams_container{
+    width: 70%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    z-index: -99;
+}
+
+
+.teams_block{
+    width: 870px;
+    height: 700px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    position: relative;
+    margin: auto;
+    z-index: -9;
+}

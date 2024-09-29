@@ -1,0 +1,62 @@
+.team {
+    width: 256px;
+    height: 318px;
+    padding: 20px 10px;
+    background: var(--background-card-color);
+    border-radius: 10px;
+    border: 1px rgba(116, 120, 115, 0.20) solid;
+    backdrop-filter: blur(40px);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 15px;
+}
+
+.header {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+}
+
+.line {
+    flex: 1;
+    height: 1px;
+    background: rgba(255, 255, 255, 0.20);
+}
+
+.circle {
+    width: 20px;
+    height: 20px;
+    background: #EA0C0C;
+    box-shadow: 0 0 6px #F85B03;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inner-circle {
+    width: 12px;
+    height: 16px;
+    /*background: rgba(0, 0, 0, 0.50);*/
+}
+
+.title {
+    color: white;
+    font-size: 18px;
+    font-family: 'Crimson Text', serif;
+    font-weight: 400;
+    word-wrap: break-word;
+}
+
+.positions {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    width: 100%;
+}
+
+
