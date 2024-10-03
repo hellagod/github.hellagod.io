@@ -1,7 +1,7 @@
 import React, {forwardRef} from "react";
 import './Player.css'
 import {useDraggable} from "@dnd-kit/core";
-import {CSS} from '@dnd-kit/utilities';
+// import {CSS} from '@dnd-kit/utilities';
 
 const Player = forwardRef(({children, data, ...props}, ref) => {
     return <div {...props} ref={ref} className={"player "}>
@@ -26,7 +26,7 @@ function DraggablePlayer(props) {
     return (
         <Player ref={setNodeRef} {...attributes} {...listeners} data={props.data}
                 style={(isDragging ? {
-                    opacity: '0.5',
+                    opacity: '0.2',
                 } : {})}
         />
     )

@@ -12,7 +12,7 @@ const Position = ({pos, id, children}) => {
     };
 
     return <div ref={setNodeRef} className="position" style={style}>
-        { children ? children : <div className="pos">{pos}</div>}
+        {children ? children : <div className="pos">{"pos " + (pos + 1)}</div>}
     </div>
 
 };
